@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.swap.eswapco" version="0.0.6" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.swap.eswapco" version="0.0.7" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>swap</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework.com" href="http://ionicframework.com/">Ionic Framework Team</author>
@@ -109,7 +109,10 @@
         <splash height="2732" src="resources/ios/splash/Default@2x~universal~anyany.png" width="2732" />
       
       <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
-         <string>We use your location for full functionality of certain app features.</string>
+         <string>
+        To activate your account on the Swap application, we must make sure that you have a commercial activity, by providing us with a copy of the commercial registration.
+        For individual accounts, it may be required to provide us with a copy of the ID card to avoid fake accounts
+        </string>
       </edit-config>
       
     </platform>
